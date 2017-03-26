@@ -1,0 +1,9 @@
+level1: stack can executable.
+
+level2: stack cannot executable, but libc is can use, and libc address is fixed.
+
+level3: libc address is randominize, but libc is same with yours, you just need leak some libc addresses.
+
+level4: libc address is randominize, and libc is unknown, you should checkout libc database to figure out libc version.
+
+level5: with stack protector.
